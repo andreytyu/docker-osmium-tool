@@ -1,9 +1,9 @@
 FROM debian:stretch
 
-MAINTAINER David Stefan <stefda@gmail.com>
+MAINTAINER Andrey Tyukavin <geotyukavin`@gmail.com>
 
-ENV OSMIUM_VERSION 2.13.1
-ENV OSMIUM_TOOL_VERSION 1.7.1
+ENV OSMIUM_VERSION 2.15.0
+ENV OSMIUM_TOOL_VERSION 1.10.0
 
 RUN apt-get update
 RUN apt-get update && apt-get install -y \
